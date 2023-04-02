@@ -90,7 +90,7 @@ const CopyKitt: React.FC = () => {
       const data = new FormData();
       data.append("pdf", file, file.name);
 
-      const ENDPOINT: string = "http://localhost:8080/pdf";
+      const ENDPOINT: string = "https://condense-ai-backend-xg36.onrender.com/";
 
       console.log("Submitting: " + ":pdf");
       setIsLoading(true);
